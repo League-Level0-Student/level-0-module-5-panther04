@@ -7,11 +7,17 @@ public static void main(String[] args) {
 	int die = Integer.parseInt(kill);
 	
 	for (int i = 0; i <= die; i++) {
-		System.out.println(i);
+		if (i%2==0) {
+			
+		
+		System.out.println(i+"even");
 	}
-	
-	
-	
+		if (i%2==1) {
+			
+			System.out.println(i+"odd");
+		}
+	}
+		
 	
 	
 	
