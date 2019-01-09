@@ -33,7 +33,8 @@ public class Code4Life {
 		// 4. If it is more than 5, call the method below to play the Batman theme song.
 	
 		if (num1 > 5) {
-			JOptionPane.showMessageDialog(null,"play the batman theme song down below");
+			JOptionPane.showMessageDialog(null,"playBatmanTheme");
+					
 				
 			
 		}
