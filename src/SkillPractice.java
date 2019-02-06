@@ -17,11 +17,11 @@ public class SkillPractice {
 		// Use pop-ups for the following.
 		// Ask the user how many dimes they have
 			String dimes = JOptionPane.showInputDialog("How many dimes do you have ");
-			int car = Integer.parseInt(dimes);
+			int mustang = Integer.parseInt(dimes);
 
 
 		// Tell them how many cents they have (hint multiply by 10)
-			 JOptionPane.showMessageDialog(null,"You have "+car*10);
+			 JOptionPane.showMessageDialog(null,"You have "+mustang*10);
 
 
 
@@ -69,25 +69,35 @@ int name = Finest.nextInt(10);
 		}
 
 		void skill4() { // In a pop-up, ask the user for the city they live in 
-String family = JOptionPane.showInputDialog("They are ");
+String family = JOptionPane.showInputDialog("What city do u live in");
 
 
 		// If they answered "San Diego", tell them they live in America's Finest City 
 
+if (family.equals("San deigo")) {
+	JOptionPane.showMessageDialog(null,"U live in americas finest city");
+}
 
 
 		// Otherwise, tell them to move to San Diego 
-
+else {
+	JOptionPane.showMessageDialog(null,"U should move to San deigo");
+}
 
 
 		// Create a variable - cars - and initialize it to the number of cars your family has. // If there are 0 cars, use a pop-up to display, "I bet you use public transportation." 
-
-
+		String cars = JOptionPane.showInputDialog("What is the number of cars u have at ur house");
+		int ze = Integer.parseInt("");
+	
+		}
+		
 
 		// If there is 1 car, use a pop-up to display the make/model of the car 
-
-
-
+		String model = JOptionPane.showInputDialog("What is the model of the car");
+if (model.equals(1)) {
+	
+	
+}
 		// If there is more than 1 car, use a pop-up to display how many wheels the // cars have between them. 
 
 
