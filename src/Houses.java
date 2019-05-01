@@ -27,15 +27,29 @@ public static void main(String[] args) {
 	noice.turn(-90);
 	Random walk = new Random();
 	int talk=walk.nextInt(401)+100;
+	if (talk<300) {	
 	noice.move(talk);
-	noice.turn(90);
-	noice.move(50);
-	noice.turn(90);
-	noice.move(talk);
-	noice.turn(90);
-	noice.setPenColor(Color.green);
+	noice.turn(45);
 	noice.move(20);
+	noice.turn(90);
+	noice.move(20);
+	noice.turn(45);
+	noice.move(talk);
+	noice.setPenColor(Color.green);
+	noice.turn(270);
+	noice.move(20);
+	}else {
+		noice.turn(90);
+		noice.move(talk);
+		noice.turn(90);
+		noice.move(talk);
+		noice.turn(90);
+		noice.move(50);
+		noice.turn(-90);
+		noice.setPenColor(Color.green);
+		noice.move(20);
 	}
-	
+	}
+
 }
 }
