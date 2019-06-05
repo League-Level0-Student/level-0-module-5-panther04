@@ -14,7 +14,7 @@ public class calculator {
 	//4. give them the result
 	int mind = Integer.parseInt(rob);
 	int ham = Integer.parseInt(beery);
-	if (friends.contentEquals("add")) {
+	if (friends.equals("add")) {
 		JOptionPane.showMessageDialog(null,mind+ham);
 	}
 	if (friends.contentEquals("subtract")) {
