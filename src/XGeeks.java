@@ -13,7 +13,7 @@ public static void main(String[] args) {
 	
 	String maxPower = "yes";
 	
-	String idk = JOptionPane.showInputDialog("Whos power do u want to see first");
+	String idk = JOptionPane.showInputDialog("Which persons power do u want to see first");
 	
 
 	if (idk.equals("regina")) {
@@ -21,8 +21,8 @@ public static void main(String[] args) {
 	}
 	
 	
-		if (idk.equals("elijha")) {
-		JOptionPane.showMessageDialog(null,elijhasPower);
+		if (idk.equals("elijah")) {
+		JOptionPane.showMessageDialog(null,elijahsPower);
 	}
 	
 	
@@ -30,7 +30,7 @@ public static void main(String[] args) {
 		JOptionPane.showMessageDialog(null,maxPower);
 	}
 	else {
-		JOptionPane.showMessageDialog(null,"WRONG");
+		JOptionPane.showMessageDialog(null,"You picked the wrong persons so there is no power");
 	}
 	
 	
