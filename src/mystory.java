@@ -43,6 +43,31 @@ public static void main(String[] args) {
 		JOptionPane.showMessageDialog(null,"You chose to not clean up you just got spotted by wood cutters");
 	}
 	
+	String now = JOptionPane.showInputDialog("What are you going to do because you got spotted");
+	
+	if (now.equals("Kill")) {
+		JOptionPane.showMessageDialog(null,"So you chose to kill the, now they bring the army and the military but you still win");
+	}
+	
+	else if (now.equals("Make Friends with them")) {
+		JOptionPane.showMessageDialog(null,"You tryed to make friends with them but they dont want to cause you have a dragon");
+	}
+	
+	String later = JOptionPane.showInputDialog("You could now go to a different area or stay");
+	
+	if (later.equals("Stay")) {
+		JOptionPane.showMessageDialog(null,"You chose to stay but you have to keep on fighting and when you finish fighting your dragon has eggs");
+	}
+	
+	else if (later.equals("Move")) {
+		JOptionPane.showMessageDialog(null,"You chose to move and now you live in a good life and your dragon has eggs");
+	}
+	
+	
+	
+	
+	
+	
 	
 	
 	
